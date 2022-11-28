@@ -5,4 +5,4 @@ const prompt = require("prompt-sync")();
 const num1 = parseInt(prompt("Enter your num1 = " ));
 const num2 = parseInt(prompt("Enter your num2 = " ));
 
-console.log("Multiplication is = ", num1 / num2);
+console.log(" Division is = ", num1 / num2);
