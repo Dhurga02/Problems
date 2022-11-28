@@ -11,9 +11,7 @@ const prompt = require("prompt-sync")();
 const n = parseInt(prompt(" Enter the divisible num = "));
 
 for( let i = 1 ; i <= n ; i = i + 1 ){
-    console.log( i );
-
-
+  
 if(i % 5 == 0 && i % 3 == 0 ){
 
     console.log(" FizzBuzz ");
@@ -25,6 +23,9 @@ if(i % 5 == 0 && i % 3 == 0 ){
 }else if( i % 3 == 0 ){
 
     console.log( " Fizz ");
-}
 
+}else{
+
+  console.log( i );
+}
 }
