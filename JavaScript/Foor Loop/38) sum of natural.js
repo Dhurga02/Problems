@@ -2,11 +2,13 @@
 
 const prompt = require("prompt-sync")();
 
-const n = parseInt(prompt("n = "));
+const n = parseInt(prompt());
 
 let x = 0
 
 for( let i = 1 ; i <=n ; i = i + 1 ){
 
-    console.log( x += i); 
+    x = x + i;
 }
+
+console.log(" The n number is : ", x)
