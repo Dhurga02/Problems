@@ -4,11 +4,13 @@
 
 const prompt = require("prompt-sync")();
 
-const a = parseInt(prompt ("enter the factorial num = "));
+    const a = parseInt(prompt( " Enter the number "));
 
-let b = 1
+    let b = 1
 
-for(let i = 1 ; i <=a ; i = i + 1){
+    for (let i = a ; i >= 1 ; i = i - 1){
 
-    console.log( b *= i );
-}
+        b = b * i;
+    }
+console.log("the factorial is : ", b)
+
