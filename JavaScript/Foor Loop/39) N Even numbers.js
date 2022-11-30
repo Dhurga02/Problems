@@ -2,9 +2,15 @@
 
 const prompt = require("prompt-sync")();
 
-const n = parseInt(prompt(" Enter the even number = "));
+const n = parseInt(prompt(" Enter the number "));
 
-for( let i = 0 ; i <= n ; i = i + 2 ){
+let a = 0
 
-    console.log( i );
+for (let i = 1 ; i <= n ; i = i + 1){
+   
+    if(i %2 == 0){
+
+        a = a + i;
+    }
 }
+console.log(" Total even number is : ", a);
