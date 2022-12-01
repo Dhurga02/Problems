@@ -16,7 +16,7 @@ for (let i = 1 ; n <= 5; i = i + 1){
 
     for (let j = 1; n<=5; j = j + 1){
 
-        output = output + i;
+        output = output + n;
     }
 }
 
