@@ -11,15 +11,28 @@
 
 // 10 is not prime number because it is divisible by 1,2,5 and 10
 
+
 const prompt = require("prompt-sync")();
 
-const b = parseInt(prompt(" Enter the prime number = "));
+const n = parseInt(prompt(" Check prime number = "));
 
-for (let i = 2 ; i <=b / 2 ; i = i + 1){
-    if (b % i == 0 ){
-        console.log(" not prime number ");
-    }else {
-        console.log(" prime number ");
+let isprime = true;
+
+for(let i = 2 ; i <=n / 2 ; i = i + 1){
+
+    if(n % i == 0){
+        isprime = false;
+
+          break;
     }
 }
 
+if(isprime == true){
+
+    console.log(" is a prime number : ", n);
+
+}else{
+
+    console.log(" not a prime number : ", n);
+
+}
