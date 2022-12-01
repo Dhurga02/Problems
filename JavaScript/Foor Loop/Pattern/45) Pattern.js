@@ -1,4 +1,3 @@
-
 //  Pattern 1
 
 //  1 1 1 1 1
@@ -9,19 +8,17 @@
 
 const prompt = require("prompt-sync")();
 
-const n = parseInt(prompt("enter the number = "));
+const n = parseInt(prompt(" enter the number = "));
 
+let output = ""
 
+for (let i = 1 ; i <= n; i = i + 1){      //row
 
-let output = " "
+for (let j = 1 ; j <= n; j = j + 1){     //column
 
-for (let i = 1 ; i <= n; i = i + 1){
-
-for (let j = 1 ; j <= n; j = j + 1){
-
-    output = output + i + " ";
+    output = output + i +"   "; 
 }
-output = output +"\n";
+output = output + "\n";
 }
 
 console.log(output);
