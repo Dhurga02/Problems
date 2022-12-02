@@ -18,7 +18,7 @@ for(let i = 1 ; i<=n ; i = i + 1){
 
     for(let j = 1 ; j<=n ; j = j + 1){
 
-        output = output + " * ";
+        output = output +" *  ";
     }
 output = output + "\n";
 }
