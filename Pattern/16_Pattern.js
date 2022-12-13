@@ -12,10 +12,7 @@
 // *				*
 
 // *	*	*	*	*
-
-const prompt = require("prompt-sync")();
-
-const n = parseInt(prompt("Enter the number = "));
+const n = 9
 
 output = ""
 
@@ -23,11 +20,11 @@ for(let i=1 ; i<=n ; i=i+1){
 
     for(let j=1 ; j<=n ; j=j+1){
 
-        if(i==1 || i==n || j==1 || j==n || i==3&j==3){
+        if(i==1 || i==n || j==1 || j==n || i==5 && j==5){
             output=output+"* "
         
         }else{
-            output=output+"  "
+            output=output+"  ";
         
         }
     
