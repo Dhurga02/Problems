@@ -12,7 +12,7 @@
 // *				*
 
 // *	*	*	*	*
-const n = 9
+const n = 5
 
 output = ""
 
@@ -20,7 +20,7 @@ for(let i=1 ; i<=n ; i=i+1){
 
     for(let j=1 ; j<=n ; j=j+1){
 
-        if(i==1 || i==n || j==1 || j==n || i==5 && j==5){
+        if(i==1 || i==n || j==1 || j==n || i==3 && j==3){
             output=output+"* "
         
         }else{
