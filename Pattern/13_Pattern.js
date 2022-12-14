@@ -23,7 +23,7 @@ for(let i =1 ; i<=n ; i=i+1){
     for(let j=1; j<=n ; j=j+1){
 
      
-        output = output+i*j+" "
+        output = output+(i*j)+"  ";
 
     }
     output = output+"\n"
