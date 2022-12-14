@@ -21,15 +21,13 @@ const input = "VICKY";
 
 string = "";
 
-for(let i=0; i<input.length; i++){
+for(let i=0; i<input.length; i=i+1){
 
-    for(let j=0;j<=i;j++){
+    for(let j=0;j<=i;j=j+1){
 
         string=string +` ${input[j]}`;
 
     }
     string=string+"\n";
-
 }
-
 console.log(string);
