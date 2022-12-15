@@ -3,7 +3,7 @@
 
 let family = ["dhurga","saran","love","magic"];
 
-for(let i=0 ; i< family.length ; i=i+1){
+for(let i=0 ; i<=family.length ; i=i+1){
 
     console.log(family[i]);
 }
