@@ -4,7 +4,7 @@
 
 // Output: 21
 
-const n = [1,2,3,4,5,6];;
+const n = [1,2,3,4,5,6];
 
 let sum = 0;
 
