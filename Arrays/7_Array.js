@@ -17,7 +17,7 @@ for(let i=1 ; i<=n; i=i+1){
     let studentName= prompt("enter the student "+i+":");
       studentNames.push(studentName);
 }
-const a =parseInt(prompt("Enter student :"));
-for(let i=0 ; a<studentNames.length  ; i=i+1){
+
+for(let i=0 ; i<studentNames.length  ; i=i+1){
     console.log(studentNames[i]);
 }
