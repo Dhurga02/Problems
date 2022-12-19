@@ -9,19 +9,15 @@
 
 const prompt = require("prompt-sync")();
 
+let studentNames = [];
+
 const n =parseInt(prompt("Enter total student :"));
 
-let studentNames = [];
-studentNames[0]="vicky";
-studentNames[1]="dhurga";
-studentNames[2]="vijay";
-studentNames[3]="kumar";
-
-for(let i=0 ; i<n ; i=i+1){
-    for(let j=0 ; j<n ; j=j+1){
-        studentNames.push(studentNames);
-        
+for(let i=1 ; i<=n; i=i+1){
+    let studentName= prompt("enter the student "+i+":");
+      studentNames.push(studentName);
 }
-console.log(studentNames[i]);
+const a =parseInt(prompt("Enter student :"));
+for(let i=0 ; a<studentNames.length  ; i=i+1){
+    console.log(studentNames[i]);
 }
-
