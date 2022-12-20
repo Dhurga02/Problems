@@ -22,5 +22,5 @@ let num=numbers[i];
         min=num;
     }
 }
-console.log(`the maximum num is :  ${max}`);
-console.log(`the minimum num is :  ${min}`);
+console.log("the maximum num is : " + max);
+console.log("the minimum num is :  " + min);
