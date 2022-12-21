@@ -16,12 +16,11 @@ for(let i=1 ; i<=n ; i=i+1){
 
 for(let i=0 ; i< numbers.length ; i=i+1){
 let num=numbers[i];
-
     if(num>max){
         max=num;
     }else if(num<min){
         min=num;
     }
 }
-console.log(`the maximum num is :  ${max}`);
-console.log(`the minimum num is :  ${min}`);
+console.log("the maximum num is : " + min);
+console.log("the minimum num is :  " + max);
