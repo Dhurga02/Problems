@@ -23,11 +23,8 @@ for(let i=1 ; i<n ; i=i+1){
 }
 
 let a = prompt("Enter search element : ");
-
-let index = numbers.indexOf(a);
-
-if(index!=-1){
-    console.log("The element "+a,"is found at index "+index);
-}else{
-    console.log("The element "+a,"is not found in the list ");
+for(let i=0 ; i<numbers.length ; i=i+1){
+if(numbers[i]==a){
+    console.log("The element "+a,"is found at index "+i);
+}
 }
