@@ -3,7 +3,7 @@
 // Input: Codewithvicky
 // Output: cdwthvcky
 
-const string="DHURGA";
+const string="Vignesh";
 let output=""
 
 for(let i=0 ; i<string.length ; i=i+1){
