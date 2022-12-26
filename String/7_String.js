@@ -9,9 +9,21 @@
 // Kumar
 
 const string="my name is Vignesh Kumar";
-const words=string.split(" ");
-for(let i=0 ; i<words.length ; i=i+1){
-    console.log(words[i]);
+const words = []
+
+let temp = ""
+
+for(let i = 0 ; i < string.length; i++) {
+    if(string[i] == ' ') {
+        words.push(temp);
+        temp = "";
+    } else {
+        temp += string[i];
+    }
 }
+if(temp.length > 0) { 
+    words.push(temp);
+}
+console.log(words);
 
 
