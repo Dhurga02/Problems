@@ -7,7 +7,7 @@ const string="vignesh";
 let output=""
 
 for(let i=1 ; i<string.length ; i=i+1){
-    if("aeiouAeiou".includes(string[i])){
+    if("aeiouAEIOU".includes(string[i])){
         output=output+string[i];
     }
 }
