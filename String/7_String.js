@@ -13,17 +13,13 @@ const words = []
 
 let temp = ""
 
-for(let i = 0 ; i < string.length; i++) {
-    if(string[i] == ' ') {
+for(let i=0 ; i<string.length ; i=i+1){
+    if(string[i]==" "){
         words.push(temp);
-        temp = "";
-    } else {
-        temp += string[i];
+        temp="";
+    }else{
+        temp=temp+string[i];
     }
 }
-if(temp.length > 0) { 
-    words.push(temp);
-}
+words.push(temp);
 console.log(words);
-
-
