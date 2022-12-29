@@ -3,12 +3,16 @@
 const prompt = require("prompt-sync")();
 
 const n = parseInt(prompt("Enter the number = "));
-if(n<=1){
-    console.log(n +" it's not a prime number ");
-}else if(n<=3){
-console.log(n +" is a prime number ");
-}else if(n%2==0 || n%3==0){
-    console.log(n +" it's not a prime number ");
+let prime=true;
+
+for(let i=2 ; i<n ; i=i+1){
+    if(n%i==0){
+        prime=false;
+        break;
+    }
+}
+if(prime){
+    console.log(n+" is a prime number ");
 }else{
-    console.log(n +" it's prime number ");
+    console.log(n+" is not a prime number ");
 }
