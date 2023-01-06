@@ -2,7 +2,7 @@
 
 const prompt=require("prompt-sync")();
 const num=[2,7,11,15];
-function checkNumber(num,target){
+function checkNumber(num){
 for(let i=0 ; i<num.length ; i=i+1){
     for(let j=1 ; j<num.length ; j=j+1){
         if(num[i]+num[j]==target){
@@ -13,3 +13,4 @@ for(let i=0 ; i<num.length ; i=i+1){
 }
 const target = parseInt(prompt("Enter the number : "));
 console.log(checkNumber([2,7,11,15],target));
+                          
