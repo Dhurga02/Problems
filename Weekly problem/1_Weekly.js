@@ -4,7 +4,7 @@ const prompt=require("prompt-sync")();
 const num=[2,7,11,15];
 function checkNumber(num){
 for(let i=0 ; i<num.length ; i=i+1){
-    for(let j=1 ; j<num.length ; j=j+1){
+    for(let j=i+1 ; j<num.length ; j=j+1){
         if(num[i]+num[j]==target){
             return [i,j];
         }
