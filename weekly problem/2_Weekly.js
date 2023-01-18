@@ -1,12 +1,18 @@
 
-let input="cool";
-let output=[];
-for(let i=0 ; i<input.length ; i=i+1){
-    let char=input[i];
-    if(output[char]){
-        output[char]=output[char]+1;
-    }else{
-        output[char]=1;
+const prompt=require("prompt-sync")();
+function count(str){
+    let output={};
+    for(let i=0 ; i<str.length ; i=i+1){
+        let char=str[i];
+        if(char !==" "){
+            if(output[char]){
+                output[char]++;
+            }else{
+                output[char]=1;
+            }
+        }
     }
+    console.log(output);
 }
-console.log(output);
+const input=prompt(" Enter the string : ");
+count(input);
