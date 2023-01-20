@@ -1,3 +1,5 @@
+// Check the valid or invalid IP Address.
+
 const prompt=require("prompt-sync")();
 function ipAddress(ip){
     let part=ip.split(".");
