@@ -5,7 +5,7 @@ function secondLargest(arr){
     if(arr.lenght<2)
 return null;
 let num=[0];
-    let num1= -Infinity;
+let num1=arr[0];
     for(let i=0 ; i<arr.length ; i=i+1){
         if(arr[i]>num){
           num1=num;
