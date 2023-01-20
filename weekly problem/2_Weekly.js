@@ -1,4 +1,4 @@
-
+// Count the string.
 const prompt=require("prompt-sync")();
 function count(str){
     let output={};
