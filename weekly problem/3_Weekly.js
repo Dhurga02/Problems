@@ -1,4 +1,4 @@
-
+// Find next greater element.
 const prompt=require("prompt-sync")();
 function find(arr){
     for(let i=0 ; i<arr.length ; i=i+1){
