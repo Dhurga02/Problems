@@ -21,6 +21,6 @@ for(let i=0 ; i<Math.max(numa.length,numb.length); i=i+1){
     }
     return result;
 }
-let a ="1010101010";
-let b ="1111111111";
+let a ="9999";
+let b ="1111";
 console.log(bigNumbers(a,b));
