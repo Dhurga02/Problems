@@ -1,7 +1,8 @@
 // Find the sum of two subtract big numbers
 
 const prompt = require("prompt-sync")();
-
+let A = prompt("Enter the first number = ");
+let B = prompt("Enter the second number = ");
 function bigNumbers(A, B) {
     let result = "";
     let borrow = 0;
@@ -19,6 +20,4 @@ function bigNumbers(A, B) {
     }
     return result;
 }
-let A = prompt("Enter the first number = ");
-let B = prompt("Enter the second number = ");
 console.log(bigNumbers(A, B));
