@@ -11,7 +11,7 @@ function bigNumbers(A, B) {
         let b = parseInt(B[B.length - i]) || 0;
         let sum = a - b - borrow;
         if (sum < 0) {
-            sum + 10;
+            sum=sum+10;
             borrow = 1;
         } else {
             borrow = 0;
