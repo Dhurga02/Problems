@@ -3,7 +3,7 @@
 function sortArray(arr){
     let sort=arr.length;
     for(let i=0 ; i<sort ; i=i+1){
-        for(let j=0 ; j<sort-i-1 ; j=j+1){
+        for(let j=0 ; j<sort-1 ; j=j+1){
             if(arr[j]>arr[j+1]){
                [arr[j],arr[j+1]]=[arr[j+1],arr[j]];
             }
