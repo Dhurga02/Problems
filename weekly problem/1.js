@@ -1,5 +1,4 @@
 // Find difference between two times
-
 // Input:
 //      StartTime: "8:30"
 //      End Time: "13:30"
